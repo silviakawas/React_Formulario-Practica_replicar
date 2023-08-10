@@ -1,5 +1,14 @@
+
+import Formulario from "./components/formulario/Formulario";
+import { GlobalStyle } from "./styles/globalStyle";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<GlobalStyle/>
+			<Formulario/>
+		</>
+	)
 };
 
 export default App;
